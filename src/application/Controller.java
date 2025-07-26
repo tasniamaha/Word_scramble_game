@@ -19,7 +19,9 @@ import javafx.stage.Stage;
 public class Controller {
     @FXML private FlowPane letterpane;
     @FXML private HBox useranswer;
-    private String[] wordlist = {"APPLE","BALL","CAT","ORANGES","DOLL"};
+    private String[] wordlist = {"APPLE","BALL","CAT","ORANGES","DOLL","AVOCADO","ELEPHANTS","EGG","FISH","FAN","FROG","HORSE","HAIR","ICE","IGLOO",
+    		"JUG","JADE","JELLY","KANGAROO","KERNEL","LEMON","MANGO","NAIL","PENGUIN","QUEEN","ROSE","RAT","SNAKE","SNOW",
+    		"TRAIN","TAIL","UMBRELLA","VIOLET","WAX","XYLOPHONE","ZOO"};
     private String correct_word;
     private StringBuilder currentGuess = new StringBuilder();
     private boolean guessAttempted = false;

@@ -1,0 +1,17 @@
+echo "bin/
+.settings/
+.classpath
+.project
+*.class
+*.log
+*.ctxt
+.mtj.tmp/
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+target/
+build/
+" > .gitignore

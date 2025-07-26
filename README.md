@@ -6,7 +6,7 @@ A simple word scramble game built with JavaFX. Unscramble the letters to find th
 - Interactive GUI using JavaFX
 - Randomized word shuffling
 - - Feedback screens:
-  - **Congrats screen** for correct answers
+  - **Congratulations screen** for correct answers
   - **Try again screen** for incorrect guesses
 - Modular structure with FXML files and controller classes
 
